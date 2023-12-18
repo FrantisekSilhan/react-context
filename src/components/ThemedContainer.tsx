@@ -6,9 +6,12 @@ export const ThemedContainer: React.FC<PropsWithChildren> = ({children}) => {
     return(
         <div style={
             {
-                padding: 50,
-                backgroundColor: data.theme === "light" ? "#000" : "#fff",
-                borderRadius: 10
+                padding: "1em",
+                backgroundColor: data.theme === "light" ? "#fff" : "#000",
+                borderRadius: "1em",
+                display: "flex",
+                gap: "1em",
+                flexDirection: "column"
             }
         }>
             {children}
