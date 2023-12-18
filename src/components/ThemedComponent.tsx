@@ -13,8 +13,8 @@ export const ThemedComponent = () => {
                     color: data.theme === "light" ? "#000" : "#fff"
                 }
             }>
-            {data.theme}
-            <button onClick={() => {data.toggleTheme()}}>Switch</button>
+                {data.theme}
+                <button onClick={() => {data.toggleTheme()}}>Switch</button>
             </div>
         </>
     )
